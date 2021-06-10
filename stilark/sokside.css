@@ -1,0 +1,119 @@
+.whitetxt {
+    color: white;
+}
+a:link {
+    text-decoration: none;
+}
+li {
+    text-decoration: underline;
+}
+li:hover {
+    text-decoration: underline;
+    color: rgb(0, 134, 230);
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1:hover {
+    text-decoration: underline;
+}
+
+.header{
+    background-color: rgb(48, 57, 85);
+    border-bottom: 2px rgb(40, 47, 70) solid;
+    color: white;
+}
+  
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Dette er koden for å sentrere knappene, vær forsiktig. Du kan endre background-imagge sin url men ikke stort mer*/
+.hero-image {
+    background-image: url("https://webkode.skit.no/~bas2301/PHP//Artsdatabase/bilder/bgp_snow_forrest.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/*Igjen ikke viktig, gjør det du vil */
+.artk{
+    margin: 0 10% 0 10%;
+    padding: 2% 5% 5% 5%;
+    background-color: white;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+     
+.button a:visited{
+    text-decoration: none;
+}
+
+.button a{
+    padding: 10px;
+}
+
+.button{
+    background-color: rgba(48, 57, 85, 0.75);
+    border: 1.5px solid white;
+    height: 40px;
+}
+
+.button:hover{
+    background-color: rgba(48, 57, 85, 0.95);
+    color: white;
+}
+
+.button:active{
+    text-decoration: none;
+}
+
+.resultatheader {
+    color: black;
+}
+
+.headtxt {
+    font-size: 30px;
+}
+
+.sokfelt {
+    overflow: hidden;
+    height:auto; 
+    margin:0 auto;
+} 
+
+.sokfelt form, h3 {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+.form {
+    margin: 27px 0 0 0;
+}
+
+.dataViewerDiv {
+    display: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+.countxt {
+    opacity: 0.5;
+}
