@@ -1,8 +1,8 @@
 <?php
  $db_host = 'localhost';
- $db_navn = 'mag22071';
- $db_bruker = 'mag22071';
- $db_passord = 'mag2';
+ $db_navn = 'x';
+ $db_bruker = 'x';
+ $db_passord = 'x';
  $db_forbindelse = mysqli_connect($db_host, $db_bruker, $db_passord, $db_navn);
 
 if (mysqli_connect_errno()) {
